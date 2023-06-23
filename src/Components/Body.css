@@ -1,0 +1,18 @@
+.body{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+}
+.main-content::-webkit-scrollbar{
+    display: none;
+}
+.main-content{
+    height: 100%;
+    width: 60vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

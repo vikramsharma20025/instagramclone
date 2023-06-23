@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+.App{
+  display: flex;
+  flex-direction: row;
+  overflow: none;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  flex: 0.2;
+  max-width: 20%;
+}
+a{
+  text-decoration: none;
+  color: #282c34;
+}
+.app__body{
+  display: flex;
+  flex-direction: row;
+}

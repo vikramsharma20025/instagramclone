@@ -1,0 +1,25 @@
+.Story{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 17vh;
+}
+.story-divs{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 15px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    /* border: 1px solid black; */
+}
+.story-divs>.storyitem>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.story-divs::-webkit-scrollbar {
+    display: none;
+}
